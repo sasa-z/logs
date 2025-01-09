@@ -1,0 +1,30 @@
+Početak logovanja
+[2025-01-09T15:07:34.038939] Pokretanje skripte za dohvatanje pull requestova.
+[2025-01-09T15:07:34.038988] Početak funkcije get_pull_requests.
+[2025-01-09T15:07:34.039038] Slanje zahteva ka API-ju sa params: {'state': 'open', 'per_page': 100}
+[2025-01-09T15:07:34.767529] Odgovor API-ja dobijen, status kod: 200
+[2025-01-09T15:07:34.769769] Dohvaćen broj pull requestova: 22
+[2025-01-09T15:07:34.769858] Uspešno dohvaćeni pull requestovi.
+[2025-01-09T15:07:34.770899] Docs: Add support for Adobe Analytics in documentation - 4379 - https://github.com/boto/boto3/pull/4379
+[2025-01-09T15:07:34.770973] docs: Enhance Docs with S3 Examples of Generating Presigned URLs with Original File Names and Client Context Manager - 4377 - https://github.com/boto/boto3/pull/4377
+[2025-01-09T15:07:34.770999] Removes inline scripts and inline styles to make it compatible with the newly added security headers - 4369 - https://github.com/boto/boto3/pull/4369
+[2025-01-09T15:07:34.771036] Changed description for after-call Boto3 specific events - 4353 - https://github.com/boto/boto3/pull/4353
+[2025-01-09T15:07:34.771093] Fixed style consistency in the set up part example of readme. - 4349 - https://github.com/boto/boto3/pull/4349
+[2025-01-09T15:07:34.771158] Make ClientError accessible from S3UploadFailedError - 4346 - https://github.com/boto/boto3/pull/4346
+[2025-01-09T15:07:34.771198] update the documentation for creating s3 bucket to address the region mismatch issue. - 4337 - https://github.com/boto/boto3/pull/4337
+[2025-01-09T15:07:34.771229] Use built-in `logging.NullHandler` - 4231 - https://github.com/boto/boto3/pull/4231
+[2025-01-09T15:07:34.771285] Add note on logical operators - 4141 - https://github.com/boto/boto3/pull/4141
+[2025-01-09T15:07:34.771347] doc: add build_full_result() to Paginator - 4078 - https://github.com/boto/boto3/pull/4078
+[2025-01-09T15:07:34.771393] Explain how MaxItems affects pagination in boto3 - 4073 - https://github.com/boto/boto3/pull/4073
+[2025-01-09T15:07:34.771438] Fix inject_condition_expressions transform for nested inputs such as … - 4054 - https://github.com/boto/boto3/pull/4054
+[2025-01-09T15:07:34.771488] Add codespell: pre-commit, workflow (to just detect); make it fix found already present typos - 4035 - https://github.com/boto/boto3/pull/4035
+[2025-01-09T15:07:34.771522] DynamoDB: Add support for TransactWriteItems for boto3 resource - 4010 - https://github.com/boto/boto3/pull/4010
+[2025-01-09T15:07:34.771574] Updated docstrings: added clarification about Fileobj `close` behaviour - 3968 - https://github.com/boto/boto3/pull/3968
+[2025-01-09T15:07:34.771617] Improve documentation for multiprocessing/threading - 3831 - https://github.com/boto/boto3/pull/3831
+[2025-01-09T15:07:34.771668] docs: Added description of Sigv4 when generating PreSigned url - 3688 - https://github.com/boto/boto3/pull/3688
+[2025-01-09T15:07:34.771711] refactor: rename "_get_default_session" to support use as public method - 3651 - https://github.com/boto/boto3/pull/3651
+[2025-01-09T15:07:34.771745] Returned future result in S3Transfer's download and upload - 3316 - https://github.com/boto/boto3/pull/3316
+[2025-01-09T15:07:34.771809] Implement condition/attr __repr__ - 3254 - https://github.com/boto/boto3/pull/3254
+[2025-01-09T15:07:34.771876] Add Session.assume_role method - 3253 - https://github.com/boto/boto3/pull/3253
+[2025-01-09T15:07:34.771920] Fix ExtraArgs supported by Bucket.copy - 3172 - https://github.com/boto/boto3/pull/3172
+[2025-01-09T15:07:34.771956] Završeno dohvatanje pull requestova. Počinje upload logova.
